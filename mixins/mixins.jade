@@ -1,0 +1,16 @@
+mixin navbarMenuButton
+  button(type='button', class='navbar-toggle', data-toggle='collapse', data-target='.navbar-collapse')
+    span(class='sr-only') Toggle navigation
+    span(class='icon-bar')
+    
+mixin thumbnail
+  div
+  
+mixin mediaObject(heading, buttonText, paraText)
+  a.pull-left(href='#')
+    img.media-object(src='https://app.divshot.com/img/placeholder-64x64.gif')
+  .media-body
+    h4.media-heading Media heading
+    a.btn.btn-default.btn-lg Button Text
+    p This is the content for your media.
+  
